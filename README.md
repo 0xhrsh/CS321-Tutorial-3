@@ -27,5 +27,5 @@ if the above command returns an error 13: permission denied then add `sudo` befo
 
   ./script.sh
 
-- You can also find the output of `script.sh` in `output.md`.
+- You can also find the output of `script.sh` in `output.txt`.
   
