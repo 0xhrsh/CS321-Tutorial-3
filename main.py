@@ -26,8 +26,6 @@ def compute(file):
                 if(sprefix[0].split('.')[2] >= '124' and sprefix[0].split('.')[2] < '128'):
                     inst_a_rt_tab.append([prefix, ASpath])
                     inst_a_isp.add(ASpath.split()[-2])
-        elif sprefix[1] == "22" and sprefix[0].startswith("103.21."):
-            print(sprefix[0])
 
     return prefixes, ases, inst_a_rt_tab, inst_a_isp
 
