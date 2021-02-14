@@ -101,7 +101,7 @@ def main():
 
     tc = []
     for connection in topConnections:
-        tc.append(int(connection))
+        tc.append(connection)
 
     ases = getISPName(tc)
     print("Top 10 ASes with highest degrees are:\n")
